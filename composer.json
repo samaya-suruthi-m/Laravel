@@ -1,0 +1,19 @@
+{
+    "name": "laravelcurd/curd",
+    "description": "The laravel curd operation framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samaya Suruthi",
+            "email": "samaya@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {"laravelcollective/html": "^6.2"},
+    "autoload": {
+        "psr-4": {
+             "LaravelCurd\\Curd\\": "src/"
+        }
+    }
+}
