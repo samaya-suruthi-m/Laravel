@@ -27,8 +27,6 @@ class CurdServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         $this->loadMigrationsFrom(__DIR__.'/Database/migrations');
         $this->loadViewsFrom(__DIR__.'/resources/views', 'curd');
-        $this->publishes([
-        __DIR__.'/resources/views' => resource_path('views/curd'),
-         ]);
+      
     }
 }
